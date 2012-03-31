@@ -78,60 +78,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\darke1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drake30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drakespawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\nashor1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\nashor30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\nashorspawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ourblue1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ourblue30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ourbluespawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\oured30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ourred1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ourredspawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirblue1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirblue30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirbluespawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirred1min.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirred30sec.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\theirredspawned.mp3" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\darke1min.wav" />
   </ItemGroup>
   <ItemGroup>
