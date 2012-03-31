@@ -6,11 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
+        SoundPlayer sp;
         Timer timerBlue = new Timer();
         int timerBlueCounter = 300; //счётчик для таймера
         Timer timerRed = new Timer();
@@ -28,6 +30,7 @@ namespace WindowsFormsApplication1
         {
             TopMost = true;
             InitializeComponent();
+            sp = new SoundPlayer();
             timerBlue.Interval = 1000; //интервал между срабатываниями 1000 миллисекунд
             timerBlue.Tick += new EventHandler(timerBlue_Tick); //подписываемся на события Tick
             timerRed.Interval = 1000;
@@ -48,6 +51,21 @@ namespace WindowsFormsApplication1
             if (timerBlueCounter != 0)
             {
                 this.buttonBlue.Text = (--timerBlueCounter).ToString();
+                if (timerBlueCounter == 62)
+                {
+                    sp.SoundLocation = "../../Resources/ourblue1min.wav";
+                    sp.Play();
+                }
+                if (timerBlueCounter == 32)
+                {
+                    sp.SoundLocation = "../../Resources/ourblue30sec.wav";
+                    sp.Play();
+                }
+                if (timerBlueCounter == 2)
+                {
+                    sp.SoundLocation = "../../Resources/ourbluespawned.wav";
+                    sp.Play();
+                }
             }
             else 
             { 
@@ -61,6 +79,21 @@ namespace WindowsFormsApplication1
             if (timerRedCounter != 0)
             {
                 this.buttonRed.Text = (--timerRedCounter).ToString();
+                if (timerRedCounter == 62)
+                {
+                    sp.SoundLocation = "../../Resources/ourred1min.wav";
+                    sp.Play();
+                }
+                if (timerRedCounter == 32)
+                {
+                    sp.SoundLocation = "../../Resources/oured30sec.wav";
+                    sp.Play();
+                }
+                if (timerRedCounter == 2)
+                {
+                    sp.SoundLocation = "../../Resources/ourredspawned.wav";
+                    sp.Play();
+                }
             }
             else
             {
@@ -74,6 +107,21 @@ namespace WindowsFormsApplication1
             if (timerBlueCounter2 != 0)
             {
                 this.buttonBlue2.Text = (--timerBlueCounter2).ToString();
+                if (timerBlueCounter2 == 62)
+                {
+                    sp.SoundLocation = "../../Resources/theirblue1min.wav";
+                    sp.Play();
+                }
+                if (timerBlueCounter2 == 32)
+                {
+                    sp.SoundLocation = "../../Resources/theirblue30sec.wav";
+                    sp.Play();
+                }
+                if (timerBlueCounter2 == 2)
+                {
+                    sp.SoundLocation = "../../Resources/theirbluespawned.wav";
+                    sp.Play();
+                }
             }
             else
             {
@@ -87,6 +135,21 @@ namespace WindowsFormsApplication1
             if (timerRedCounter2 != 0)
             {
                 this.buttonRed2.Text = (--timerRedCounter2).ToString();
+                if (timerRedCounter2 == 62)
+                {
+                    sp.SoundLocation = "../../Resources/theirred1min.wav";
+                    sp.Play();
+                }
+                if (timerRedCounter2 == 32)
+                {
+                    sp.SoundLocation = "../../Resources/theirred30sec.wav";
+                    sp.Play();
+                }
+                if (timerRedCounter2 == 2)
+                {
+                    sp.SoundLocation = "../../Resources/theirredspawned.wav";
+                    sp.Play();
+                }
             }
             else
             {
@@ -100,6 +163,21 @@ namespace WindowsFormsApplication1
             if (timerDrakeCounter != 0)
             {
                 this.buttonDrake.Text = (--timerDrakeCounter).ToString();
+                if (timerDrakeCounter == 62)
+                {
+                    sp.SoundLocation = "../../Resources/darke1min.wav";
+                    sp.Play();
+                }
+                if (timerDrakeCounter == 32)
+                {
+                    sp.SoundLocation = "../../Resources/drake30sec.wav";
+                    sp.Play();
+                }
+                if (timerDrakeCounter == 2)
+                {
+                    sp.SoundLocation = "../../Resources/drakespawned.wav";
+                    sp.Play();
+                }
             }
             else
             {
@@ -113,6 +191,21 @@ namespace WindowsFormsApplication1
             if (timerBaronCounter != 0)
             {
                 this.buttonBaron.Text = (--timerBaronCounter).ToString();
+                if (timerBaronCounter == 62)
+                {
+                    sp.SoundLocation = "../../Resources/nashor1min.wav";
+                    sp.Play();
+                }
+                if (timerBaronCounter == 32)
+                {
+                    sp.SoundLocation = "../../Resources/nashor30sec.wav";
+                    sp.Play();
+                }
+                if (timerBaronCounter == 2)
+                {
+                    sp.SoundLocation = "../../Resources/nashorspawned.wav";
+                    sp.Play();
+                }
             }
             else
             {

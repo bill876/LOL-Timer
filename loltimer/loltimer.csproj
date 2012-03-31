@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +76,120 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darke1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drake30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drakespawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashor1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashor30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashorspawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourblue1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourblue30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourbluespawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oured30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourred1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourredspawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirblue1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirblue30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirbluespawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirred1min.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirred30sec.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirredspawned.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darke1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drake30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drakespawned.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loopo_a.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loopo_b.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashor1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashor30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nashorspawned.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourblue1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourblue30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourbluespawned.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oured30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourred1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ourredspawned.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirblue1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirblue30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirbluespawned.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirred1min.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirred30sec.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theirredspawned.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
