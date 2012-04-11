@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApplication1.Properties {
+namespace loltimer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WindowsFormsApplication1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApplication1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("loltimer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -75,6 +75,13 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.IO.UnmanagedMemoryStream drakespawned {
             get {
                 return ResourceManager.GetStream("drakespawned", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Icon lol {
+            get {
+                object obj = ResourceManager.GetObject("lol", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

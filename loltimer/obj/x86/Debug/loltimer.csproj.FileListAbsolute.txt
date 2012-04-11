@@ -1,9 +1,9 @@
 F:\Visual Studio 2010\Projects\loltimer\loltimer\bin\Debug\loltimer.exe
 F:\Visual Studio 2010\Projects\loltimer\loltimer\bin\Debug\loltimer.pdb
 F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\ResolveAssemblyReference.cache
-F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
-F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\GenerateResource.read.1.tlog
 F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\GenerateResource.write.1.tlog
 F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\loltimer.exe
 F:\Visual Studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\loltimer.pdb
+F:\visual studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\loltimer.mainWindow.resources
+F:\visual studio 2010\Projects\loltimer\loltimer\obj\x86\Debug\loltimer.Properties.Resources.resources
